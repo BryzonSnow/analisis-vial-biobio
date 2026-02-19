@@ -1,6 +1,8 @@
 # Análisis de Vulnerabilidad Vial en el Gran Concepción
 
-Un proyecto de **Ingeniería y Análisis de Datos** enfocado en la seguridad de los usuarios más vulnerables de las vías: ciclistas y motociclistas. 
+![Mapa de Calor Siniestros Gran Concepción](img/preview_mapa.png)
+
+Un proyecto de **Ingeniería y Análisis de Datos** enfocado en la seguridad de los usuarios más vulnerables de las vías: ciclistas y motociclistas.
 
 A través del procesamiento de datos abiertos gubernamentales, este proyecto busca identificar los "Puntos Negros" de accidentes de tránsito en el Gran Concepción para facilitar la toma de decisiones estratégicas en planificación urbana y seguridad vial.
 
