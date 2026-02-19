@@ -26,7 +26,7 @@ Tras procesar y geolocalizar la base de datos de siniestros, descubrimos patrone
 ## Estructura del Proyecto
 - `/data/raw/`: Bases de datos originales de CONASET (ignoradas en el repo por peso).
 - `/data/processed/`: CSV final limpio, geolocalizado y filtrado por comunas objetivo.
-- `/src/`: Scripts modulares de limpieza (`01_limpieza.py`), visualización (`02_mapa.py`) y análisis estadístico (`03_analisis.py`).
+- `/src/`: Scripts modulares de limpieza (`limpieza.py`), visualización (`mapa.py`) y análisis estadístico (`analisis.py`).
 - `mapa_calor_interactivo.html`: Output final con la visualización espacial de los datos.
 
 ## Cómo ejecutarlo localmente
