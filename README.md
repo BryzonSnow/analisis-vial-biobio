@@ -1,5 +1,7 @@
 # Análisis de Vulnerabilidad Vial en el Gran Concepción
 
+**[VER DASHBOARD INTERACTIVO EN VIVO AQUÍ](https://bryzonsnow-analisis-vial-biobio-app-ijnjlu.streamlit.app/)** 
+
 ![Mapa de Calor Siniestros Gran Concepción](img/preview_mapa.png)
 
 Un proyecto de **Ingeniería y Análisis de Datos** enfocado en la seguridad de los usuarios más vulnerables de las vías: ciclistas y motociclistas.
