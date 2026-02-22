@@ -19,6 +19,22 @@ Tras procesar y geolocalizar la base de datos de siniestros, descubrimos patrone
 2. **Concepción como Epicentro:** La comuna de Concepción lidera abrumadoramente el ranking de peligrosidad con **339 accidentes totales**, casi el doble que Talcahuano (183) y San Pedro de la Paz (170). Chiguayante se presenta como la zona con menos incidentes (101).
 3. **Gravedad y Letalidad:** La tasa de lesiones graves en motociclistas es alarmante. De 667 accidentes, **195 resultaron en heridos graves y 12 fallecidos**. En contraste, las bicicletas presentan una mayor proporción de lesiones leves (152 de 246), aunque lamentando 3 víctimas fatales.
 
+
+## Modelo Predictivo (Machine Learning)
+Para llevar el análisis un paso más allá de la estadística descriptiva, se desarrolló una **Prueba de Concepto (PoC)** utilizando Machine Learning para predecir la gravedad de un siniestro (Leve vs. Grave/Fatal).
+
+**Metodología:**
+- **Algoritmo:** `RandomForestClassifier` (Bosque Aleatorio) optimizado para clases desbalanceadas.
+- **Feature Engineering:** Codificación One-Hot para variables categóricas (Comuna, Día, Zona, Vehículo).
+- **Métrica de éxito:** El modelo logró una precisión base del **63%** en un entorno altamente estocástico usando solo 4 variables predictoras.
+
+**Feature Importance (Variables Críticas):**
+El modelo determinó matemáticamente los factores que más aportan a la gravedad de un accidente de dos ruedas:
+1. **Ir en Motocicleta (18.7%):** Es el factor determinante número uno de lesiones graves.
+2. **Siniestro en Talcahuano (10.2%):** Revela que los accidentes en esta comuna tienden a ser más severos estadísticamente que en el resto del Gran Concepción.
+3. **Días Lunes (8.8%) y Sábados (7.9%):** El modelo identificó un patrón de gravedad ligado al estrés del inicio de semana y la conducción de fin de semana.
+
+
 ## Stack Tecnológico
 - **Python:** Lenguaje principal del análisis.
 - **Pandas:** Extracción, Transformación y Carga (ETL), limpieza de datos nulos y normalización de texto.
