@@ -1,5 +1,6 @@
 pandas
-openpyxl
 folium
-matplotlib
-seaborn
+streamlit
+streamlit-folium
+scikit-learn
+openpyxl
